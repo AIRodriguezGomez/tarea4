@@ -1,0 +1,79 @@
+*{
+    margin: 0.5%;
+    padding: 0%;
+}
+
+
+h1{
+    text-align: center;
+    color: orangered;
+}
+.tesoro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    
+}
+.contenedor{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cubo1{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.cubo1:hover{
+   transform: translateY(80%);
+}
+
+.cubo2{
+    background-color: rgb(0, 255, 0);
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.cubo2:hover{
+    transform: translateY(80%);
+ }
+
+.cubo3{
+    background-color: rgb(17, 0, 255);
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: relative;
+}
+
+.cubo3:hover{
+    transform: translateY(80%);
+ }
+
+.cubo4{
+    background-color: rgb(255, 0, 234);
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.cubo4:hover{
+    transform: translateY(80%);
+ }
+
+.cubo5{
+    background-color: rgb(255, 0, 0);
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.cubo5:hover{
+    transform: translateY(80%);
+ }
